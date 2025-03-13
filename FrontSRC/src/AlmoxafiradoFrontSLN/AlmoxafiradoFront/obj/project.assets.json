@@ -1,35 +1,35 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\tarde.cetafest\\.nuget\\packages\\": {},
+    "C:\\Users\\manha.cetafest\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafroditeCauanlindo\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\AlmoxafiradoFront.csproj",
+      "projectUniqueName": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafroditeCauanlindo\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\AlmoxafiradoFront.csproj",
       "projectName": "AlmoxafiradoFront",
-      "projectPath": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafroditeCauanlindo\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\AlmoxafiradoFront.csproj",
-      "packagesPath": "C:\\Users\\tarde.cetafest\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tarde.cetafest\\Documents\\GitHub\\alomoxarifadoafroditeCauanlindo\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\obj\\",
+      "projectPath": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafroditeCauanlindo\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\AlmoxafiradoFront.csproj",
+      "packagesPath": "C:\\Users\\manha.cetafest\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafroditeCauanlindo\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tarde.cetafest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\manha.cetafest\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -37,8 +37,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -49,8 +49,8 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
@@ -62,6 +62,14 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }

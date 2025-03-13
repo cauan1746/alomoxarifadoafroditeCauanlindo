@@ -56,9 +56,9 @@
     font-size: 15pt !important;
 }
 
-.TableContainerCategoria td, th {
-    border: 1px solid black;
-}
+    .TableContainerCategoria td, th {
+        border: 1px solid black;
+    }
 
 .tdCategoria {
     background-color: white;
@@ -71,22 +71,27 @@
     height: 30px;
     border-radius: 50%;
 }
-.trash-btn{
-    background-color:#ffff;
-    border-color:white;
+
+.trash-btn {
+    background-color: #ffff;
+    border-color: white;
 }
-.trash-btn:hover  {
-    background-color: #b6ff00;
-}
-fas fa-edit{
+
+    .trash-btn:hover {
+        background-color: #b6ff00;
+    }
+
+fas fa-edit {
     background-color: black;
 }
+
 .Icone2Categoria {
     background-color: white;
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
+
 .edit-button {
     background-color: #ffff;
     border-color: white;
@@ -96,6 +101,7 @@ fas fa-edit{
         background-color: #b6ff00;
         cursor: pointer;
     }
+
 .IconesContainerCategoria {
     display: flex;
     justify-content: center;
@@ -110,3 +116,4 @@ fas fa-edit{
         width: 82%;
     }
 }
+wbr                                                                                                                                                 
