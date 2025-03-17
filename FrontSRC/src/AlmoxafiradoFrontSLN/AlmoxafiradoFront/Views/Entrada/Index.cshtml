@@ -1,0 +1,67 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <div id="container" class="containerEntrada">
+        <div class="container1Entrada">
+            <div>
+                <button class="btnEntrada">
+                    Novo
+                </button>
+            </div>
+        </div>
+        <div class="container2Entrada">
+            <table class="TableContainerEntrada">
+                <thead class="theadEntrada">
+                <th>
+                    Código
+                </th>
+                <th>
+                    DataEntrada
+                </th>
+                <th>
+                    Observaçao
+                </th>
+                </thead>
+                <tbody>
+
+                    @if (ViewBag.Entrada != null)
+                    {
+                        <tr>
+                            <td class="tdEntrada">codigo</td>
+                            <td class="tdEntrada">DataEntrada</td>
+                            <td class="tdEntrada">Obsevaçao
+                                <div class="IconesContainerEntrada">
+                                    <div class="Icone1Categoria">
+                                        <button class="trash-btn">
+                                            <!-- Ícone de Lixeira -->
+                                            <div class="fas fa-trash"></div>
+                                        </button>
+                                    </div>
+                                    <div class="Icone2Entrada">
+                                        <button class="edit-button">
+                                            <div class="fas fa-edit"></div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                    }
+                </tbody>
+
+
+            </table>
+        </div>
+        <div class="container3Entrada">
+            <div>
+                <button class="btnEntrada BtnAzulColorEntrada">
+                    Voltar
+                </button>
+            </div>
+        </div>
+    </div>
+
+}
+<!-- Link para o Font Awesome (adicionar ao seu <head>) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">

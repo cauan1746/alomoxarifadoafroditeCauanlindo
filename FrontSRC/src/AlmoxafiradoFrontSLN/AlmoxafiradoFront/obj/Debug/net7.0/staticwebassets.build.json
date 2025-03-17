@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WJYwndSd5BZA1hcVc8C2fhhdGFQ/ZAprIkNoB1yYg/k=",
+  "Hash": "IWiKLPZC3oC5XMra36l3yTgVPLnGv0siimxFFyHT6gg=",
   "Source": "AlmoxafiradoFront",
   "BasePath": "_content/AlmoxafiradoFront",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\categoria.css"
+    },
+    {
+      "Identity": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafroditeCauanlindo\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Entrada.css",
+      "SourceId": "AlmoxafiradoFront",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafroditeCauanlindo\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\",
+      "BasePath": "_content/AlmoxafiradoFront",
+      "RelativePath": "css/Entrada.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Entrada.css"
     },
     {
       "Identity": "C:\\Users\\manha.cetafest\\Documents\\GitHub\\alomoxarifadoafroditeCauanlindo\\FrontSRC\\src\\AlmoxafiradoFrontSLN\\AlmoxafiradoFront\\wwwroot\\css\\Fornecedor.css",

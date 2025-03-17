@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <div id="container" class="containerSaida">
+        <div class="container1Saida">
+            <div>
+                <button class="btnSaida">
+                    Novo
+                </button>
+            </div>
+        </div>
+        <div class="container2Saida">
+            <table class="TableContainerSaida">
+                <thead class="theadSaida">
+                <th>
+                    Código
+                </th>
+                <th>
+                    DataSaida
+                </th>
+                <th>
+                    Observação
+                </th>
+                </thead>
+                <tbody>
+                    @if (ViewBag.Saida != null)
+                    {
+                        <tr>
+                            <td class="tdSaida">codigo</td>
+                            <td class="tdSaida">Descrição</td>
+                            <td class="tdSaida">Quantidade atual</td>
+                            <td class="tdSaida">Quantidade Saída</td>
+                            <td class="tdSaida">
+                                Observação
+                                <div class="IconesContainerSaida">
+                                    <div class="Icone1Categoria">
+                                        <button class="trash-btn">
+                                            <!-- Ícone de Lixeira -->
+                                            <div class="fas fa-trash"></div>
+                                        </button>
+                                    </div>
+                                    <div class="Icone2Saida">
+                                        <button class="edit-button">
+                                            <div class="fas fa-edit"></div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="container3Saida">
+            <div>
+                <button class="btnSaida BtnAzulColorSaida">
+                    Voltar
+                </button>
+            </div>
+        </div>
+    </div>
+
+
