@@ -297,3 +297,6 @@ C:\Users\manha.cetafest\Documents\GitHub\alomoxarifadoafroditeCauanlindo\BackSRC
 C:\Users\manha.cetafest\Documents\GitHub\alomoxarifadoafroditeCauanlindo\BackSRC\AlmoxarifadoBackSLN\AlmoxarifadoBackAPI\obj\Debug\net7.0\AlmoxarifadoBackAPI.pdb
 C:\Users\manha.cetafest\Documents\GitHub\alomoxarifadoafroditeCauanlindo\BackSRC\AlmoxarifadoBackSLN\AlmoxarifadoBackAPI\obj\Debug\net7.0\AlmoxarifadoBackAPI.genruntimeconfig.cache
 C:\Users\manha.cetafest\Documents\GitHub\alomoxarifadoafroditeCauanlindo\BackSRC\AlmoxarifadoBackSLN\AlmoxarifadoBackAPI\obj\Debug\net7.0\ref\AlmoxarifadoBackAPI.dll
+C:\Users\tarde.cetafest\Documents\GitHub\alomoxarifadoafroditeCauanlindo\BackSRC\AlmoxarifadoBackSLN\AlmoxarifadoBackAPI\obj\Debug\net7.0\AlmoxarifadoBackAPI.dll
+C:\Users\tarde.cetafest\Documents\GitHub\alomoxarifadoafroditeCauanlindo\BackSRC\AlmoxarifadoBackSLN\AlmoxarifadoBackAPI\obj\Debug\net7.0\refint\AlmoxarifadoBackAPI.dll
+C:\Users\tarde.cetafest\Documents\GitHub\alomoxarifadoafroditeCauanlindo\BackSRC\AlmoxarifadoBackSLN\AlmoxarifadoBackAPI\obj\Debug\net7.0\AlmoxarifadoBackAPI.pdb

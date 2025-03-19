@@ -1,38 +1,61 @@
-﻿<!DOCTYPE html>
-<htmlProduto lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="Produto.css">
-    </head>
-    <bodyProduto>
+﻿<div id="container" class="containerProduto">
+    <div class="container1Produto">
+        <div>
+            <button class="btnProduto">
+                Novo
+            </button>
+        </div>
+    </div>
+    <div class="container2Produto">
+        <table class="TableContainerProduto">
+            <thead class="theadProduto">
+            <th>
+                Código
+            </th>
+            <th>
+                Descrição
+            </th>
+            <th>
+                Opções
+            </th>
+            </thead>
+            <tbody>
 
-        <divProduto class="form-containerProduto">
-            <h2Produto>Cadastro de Produto</h2Produto>
-            <form action="#" method="POST">
-                <label class="codigoProduto">descricao:</label>
-                <input class="codigocoProduto" required>
+                @foreach (var item in ViewBag.Produto)
+                {
+                    <tr>
+                        <td class="tdProduto">@item.descriçao</td>
+                        <td class="tdProduto">@item.unidadeMedida</td>
+                        <td class="tdProduto">@item.estoqueAtual</td>
+                        <td class="tdProduto">@item.epermanente</td>
+                        <td class="tdProduto">@item.codigoCategoria</td>
+                        <td class="tdProduto">
+                            <div class="IconesContainerProduto">
+                                <div class="Icone1Produto">
+                                    <button class="trash-btn">
+                                        <div class="fas fa-trash"></div>
+                                    </button>
+                                </div>
+                                <div class="Icone2Produto">
+                                    <button class="edit-button">
+                                        <div class="fas fa-edit"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
 
-                <label class="DescricaoProduto">Unidade de Medida:</label>
-                <input class="descricaoProduto" required>
+                }
+            </tbody>
 
-                <label class="UnidadeProduto">EstoqueAtual</label>
-                <input class="unidadeProduto" required>
 
-                <label class="epermanente">Epermanente</label>
-                <input class="Epermanete" required>
-
-                <label class="codigoCategoria">Codigo Categoria</label>
-                <input class="CodigoCategoria" required>
-
-                <div class="button-containerProduto">
-                    <button type="button" class="voltarProduto">Voltar</button>
-                    <button type="button" class="cancelarProduto">Cancelar</button>
-                    <button type="submit" class="salvarProduto">Salvar</button>
-                </div>
-            </form>
-        </divProduto>
-
-    </bodyProduto>
-</htmlProduto>
+        </table>
+    </div>
+    <div class="container3Produto">
+        <div>
+            <button class="btnProduto BtnAzulColorProduto">
+                Voltar
+            </button>
+        </div>
+    </div>
+</div>

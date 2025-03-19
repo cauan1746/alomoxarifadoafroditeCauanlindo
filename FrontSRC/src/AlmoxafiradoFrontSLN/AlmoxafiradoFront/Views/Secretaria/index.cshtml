@@ -1,35 +1,61 @@
-﻿<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Secretaria</title>
-    <link rel="stylesheet" href="Secretaria.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Formulário de Secretaria</h1>
-        <form action="#" method="POST">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="estado">Estado:</label>
-            <input type="text" id="estado" name="estado" required>
-
-            <label for="telefone">Telefone:</label>
-            <input type="text" id="telefone" name="telefone" required>
-
-            <label for="cnpj">CNPJ:</label>
-            <input type="text" id="cnpj" name="cnpj" required>
-
-            <label for="cpf">CPF:</label>
-            <input type="text" id="cpf" name="cpf" required>
-
-            <div class="buttons">
-                <button type="reset" class="cancelar">Cancelar</button>
-                <button type="submit" class="salvar">Salvar</button>
-            </div>
-        </form>
+﻿<div id="container" class="containerSecretaria">
+    <div class="container1Secretaria">
+        <div>
+            <button class="btnSecretaria">
+                Novo
+            </button>
+        </div>
     </div>
-</body>
-</html>
+    <div class="container2Secretaria">
+        <table class="TableContainerSecretaria">
+            <thead class="theadSecretaria">
+            <th>
+                Código
+            </th>
+            <th>
+                Descrição
+            </th>
+            <th>
+                Opções
+            </th>
+            </thead>
+            <tbody>
+
+                @foreach (var item in ViewBag.Secretaria)
+                {
+                    <tr>
+                        <td class="tdSecretaria">@item.Nome</td>
+                        <td class="tdSecretaria">@item.telefone</td>
+                        <td class="tdSecretaria">@item.estado</td>
+                        <td class="tdSecretaria">@item.cidade</td>
+                        <td class="tdSecretaria">@item.CNPJ</td>
+                        <td class="tdSecretaria">
+                            <div class="IconesContainerSecretaria">
+                                <div class="Icone1Secretaria">
+                                    <button class="trash-btn">
+                                        <div class="fas fa-trash"></div>
+                                    </button>
+                                </div>
+                                <div class="Icone2Secretaria">
+                                    <button class="edit-button">
+                                        <div class="fas fa-edit"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+
+
+        </table>
+    </div>
+    <div class="container3Secretaria">
+        <div>
+            <button class="btnSecretaria BtnAzulColorSecretaria">
+                Voltar
+            </button>
+        </div>
+    </div>
+</div>
