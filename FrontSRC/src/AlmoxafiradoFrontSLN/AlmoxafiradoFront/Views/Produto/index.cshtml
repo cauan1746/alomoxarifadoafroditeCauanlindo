@@ -21,14 +21,14 @@
             </thead>
             <tbody>
 
-                @foreach (var item in ViewBag.Produto)
+                @foreach (var item in ViewBag.Produtos)
                 {
                     <tr>
                         <td class="tdProduto">@item.descriçao</td>
                         <td class="tdProduto">@item.unidadeMedida</td>
                         <td class="tdProduto">@item.estoqueAtual</td>
                         <td class="tdProduto">@item.epermanente</td>
-                        <td class="tdProduto">@item.codigoCategoria</td>
+                        <td class="tdProduto">@item.codigocategoria</td>
                         <td class="tdProduto">
                             <div class="IconesContainerProduto">
                                 <div class="Icone1Produto">

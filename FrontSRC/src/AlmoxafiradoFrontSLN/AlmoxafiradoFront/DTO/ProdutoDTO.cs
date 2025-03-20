@@ -8,7 +8,7 @@ namespace AlmoxafiradoFront.DTO
         public string unidadeMedida { get; set; }
         public float estoqueAtual { get; set; }
         public bool epermanente { get; set; }
-        public int codigoCategoria { get; set; }
+        public int codigocategoria { get; set; }
     }
 }
 
